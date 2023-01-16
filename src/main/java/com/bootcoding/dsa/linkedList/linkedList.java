@@ -40,10 +40,11 @@ public class linkedList {
 
 
         public  static Node createLinkedList() {
+
             Node firstNode = new Node(10);
             Node secondNode = new Node(20);
-            Node thirdNode = new Node(30);
-            Node forthNode =new Node(40);
+            Node thirdNode = new Node(10);
+            Node forthNode =new Node(30);
 
             Node head = firstNode;
             head.next = secondNode;
@@ -65,6 +66,8 @@ public class linkedList {
             System.out.println();
         }
 
+
+
             public static void main(String[] args) {
             Node head =   createLinkedList();
             printLinkedList(head);
@@ -75,6 +78,8 @@ public class linkedList {
 
             inserNodeAtLast(head);
             printLinkedList(head);
+
+
 
 
         }
