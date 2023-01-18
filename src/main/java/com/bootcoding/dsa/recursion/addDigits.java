@@ -13,7 +13,7 @@ Explanation: The process is
 Since 2 has only one digit, return it.*/
 public class addDigits {
 
-    public static int addDigits(int num) {
+    public static int addDigits (int num) {
 
         if(num<10) {
 
