@@ -17,7 +17,7 @@ public class printEvenNodes {
     }
     public static void main(String[] args) {
         linkedList EvenNode = new linkedList();
-      Node head2=  EvenNode.createLinkedList();
+        Node head2=  EvenNode.createLinkedList();
       printEvenNodes(head2);
 
 

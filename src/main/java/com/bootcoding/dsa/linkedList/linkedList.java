@@ -1,10 +1,5 @@
 package com.bootcoding.dsa.linkedList;
 
-
-
-
-
-
 public class linkedList {
 
     public static Node insertNodeAtFirst(Node head){
@@ -25,8 +20,8 @@ public class linkedList {
         //trvaerse
 
         Node temp= head;
-        while(temp!=null){
-           if(temp.next == null){
+        while (temp!=null){
+           if (temp.next == null){
                Node newNode = new Node(60);
                temp.next= newNode;
                return head;
@@ -43,8 +38,8 @@ public class linkedList {
 
             Node firstNode = new Node(10);
             Node secondNode = new Node(20);
-            Node thirdNode = new Node(10);
-            Node forthNode =new Node(30);
+            Node thirdNode = new Node(30);
+            Node forthNode =new Node(40);
 
             Node head = firstNode;
             head.next = secondNode;
