@@ -8,13 +8,7 @@ public class linkedList {
         newNode.next=head; //newNode is pointing head Linkedlist
         head = newNode;  // reset to newNode as head
         return head;
-
-
-
-
-
-
-    }
+  }
 
     public static Node inserNodeAtLast(Node head){
         //trvaerse
