@@ -6,16 +6,16 @@ public class MaxElementOfArray {
 
 
         public  static int maxElement(int[] numbers){
-            int temp=numbers[0];
+            int max=numbers[0];
             for (int i = 0; i <numbers.length ; i++) {
                 for (int j = i+1; j < numbers.length ; j++) {
-                    if(numbers[j]>temp){
-                        temp=numbers[j];
+                    if(numbers[j]>max){
+                        max=numbers[j];
                     }
                 }
 
             }
-            return temp;
+            return max;
 
         }
         public static void main(String[] args) {
