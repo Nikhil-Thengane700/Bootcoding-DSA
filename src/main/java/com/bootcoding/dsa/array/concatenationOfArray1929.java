@@ -1,6 +1,6 @@
 package com.bootcoding.dsa.array;
 
-public class concatenationOfArray {
+public class concatenationOfArray1929 {
     public static void main(String[] args) {
 
     }
