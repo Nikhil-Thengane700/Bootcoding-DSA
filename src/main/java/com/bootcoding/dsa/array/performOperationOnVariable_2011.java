@@ -13,11 +13,11 @@ public class performOperationOnVariable_2011 {
 
             int x =0;
         for (int i = 0; i <operations.length ; i++) {
-            if(operations[i]=="X++" || operations[i]== "++X"){
+            if(operations[i].equals("X++") || operations[i].equals("++X")){
                 x = x+1;
 
             }
-            if(operations[i]=="X--" || operations[i]== "--X"){
+            if(operations[i].equals("X--") || operations[i].equals("--X")){
                 x = x-1;
             }
 
